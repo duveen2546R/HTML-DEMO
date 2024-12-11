@@ -1,0 +1,59 @@
+div{
+    height:40px;
+    background-color: pink;
+    width: 100px;
+    border-width: 2px;
+    border-style: double;
+    border-color: brown;
+    text-align: center;
+    /*  border-style has (solid ,dashed ,dotted and many more)  */
+}
+
+h1{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    background-color:goldenrod;
+}
+
+h2{
+    border: 2px solid cornflowerblue;
+    width: 100px;
+    text-align: center;
+}
+
+h4{
+    border: 2px solid cornflowerblue;
+    height:100px;
+    background-color: pink;
+    width: 100px;
+    border-radius: 50px;
+    text-align: center;
+
+    /* border-radius :20px */
+    /*  Border-Radiys is used to make the Box edges in Round Shape */
+}
+
+#p1{
+    background-color: aquamarine;
+    padding-left: 25px;
+    margin-top: 40px;
+
+    /* 
+    Padding is the Gap between the Content and the Border. It helps us to move the content left,right,top,bottom
+    
+    padding-right , padding-top , padding-bottom 
+    are present
+    */
+
+    /*  Short Form :  
+     padding : 1px 2px 3px 4px
+    the order is top right bottom left
+    
+    If we mention only 
+    padding :50px  
+    then the padding is set to 50px for all sides */
+
+    /* Margin is the ExtraSpace given outside the Border. Margin also has the same 4 parameters like padding */
+}
+

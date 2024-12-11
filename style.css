@@ -1,0 +1,76 @@
+/* the link of this CSS is mentioned in the Head of the HTML File */
+/* This Format is called External StyleSheet Format */
+
+h1{
+    color:pink;
+}
+
+h2{
+    color: red;
+    text-decoration: wavy underline;
+}
+
+h1{
+    background-color: white;
+    text-decoration: red line-through;
+    /* Text Decoration also  has features like(dotted,underline,overline) etc */
+}
+/* This sets up the Background Color of the Text we Choosen */
+
+body{
+    background-color: black;
+}
+
+button{
+    color: brown;
+    background-color: aquamarine;
+}
+
+#headingOne{
+    color: burlywood;
+}
+
+/* we can assign properties to unique headings, paragraphs by assign an id name to it */
+
+.class1{
+    color: lightseagreen;
+}
+
+/* we can assign color to a class by specifying the class name in the HTML File */
+
+p{
+    text-align: center;
+    /* we also have ( right, left ) properties in this textalign */
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color:blanchedalmond
+    /* Generally for Links we will get Underine to it . if we want to remove it we will set text-decoration to none */
+}
+
+#big1{
+    font-weight: normal;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    line-height: 50px;
+
+    /* font weights have (normal,bold,bolder,lighter)  font-weight have a range of (100,900) */
+}
+
+/* 
+    96px = 1 inch
+    font-size = 2px
+
+*/
+
+#p2{
+    color: white;
+    text-transform: uppercase;
+    /* text-transform has many methods like ( uppercase ,lowercase,capitalize,normal ) */
+}
+
+
+
